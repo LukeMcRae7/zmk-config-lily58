@@ -1,8 +1,8 @@
-layout: {qmk_keyboard: lily58_rotated}
+layout: {zmk_keyboard: lily58}
 layers:
   Bas: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', ↹, Q, W, E, R, T, Y, U, I, O, P, '-', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K,
     L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, '[', ']', N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-command$$',
-    Low, ␣, ⏎, Rai, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-command$$']
+    Low, ␣, ⏎, Rai, '$$mdi:backspace-outline$$', ⌦]
   Low:
   - BT CLR
   - BT 1
@@ -10,10 +10,10 @@ layers:
   - BT 3
   - BT 4
   - BT 5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Insert
+  - Home
+  - End
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
@@ -41,13 +41,13 @@ layers:
   - )
   - '~'
   - {t: ▽, type: trans}
+  - EP ON
+  - EP OFF
+  - EP TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
+  - \
   - {t: ▽, type: trans}
   - '-'
   - KP PLUS
@@ -63,6 +63,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Rai:
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - EP TOG
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -70,49 +88,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
   - {t: ▽, type: trans}
   - ←
   - ↓
   - ↑
   - →
   - {t: ▽, type: trans}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP PLUS
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Vol Down
+  - Vol Up
+  - PAUSE
+  - ⏮️
+  - ⏭️
+  - STOP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

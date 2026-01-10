@@ -48,7 +48,7 @@ layers:
   - {t: ▽, type: trans}
   - /
   - \
-  - {t: ▽, type: trans}
+  - KP EQUAL
   - '-'
   - KP PLUS
   - '{'

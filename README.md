@@ -1,8 +1,11 @@
 # Lily58 ZMK Config
 ### Forked from MC Technology's zmk-config for corne - sofle - lily58
 <br>
-[keymap-drawer/IMG_2849.jpg]
 
+![Keyboard](keymap-drawer/IMG_2849.jpg)
+![default_layer](keymap-drawer/screenshot-2026-04-27_13-36-17.png)
+![lower_layer](keymap-drawer/screenshot-2026-04-27_13-36-33.png)
+![upper_layer](keymap-drawer/screenshot-2026-04-27_13-36-45.png)
 ### zmk-studio (quick start)
 This repository includes the necessary configuration to use zmk-studio without
 the need to configure anything else. You just have to follow the steps below:
